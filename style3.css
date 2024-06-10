@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    flex: 1;
+    text-align: right;
+}
+
+.right-side img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.academic-results {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.academic-results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.academic-results th, .academic-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.academic-results th {
+    background-color: #f2f2f2;
+}
+
+.academic-results tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.academic-results tr:hover {
+    background-color: #ddd;
+}
